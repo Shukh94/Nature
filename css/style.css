@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 h2 h3 h5 h6 p a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    background-image: url(../images/pexels-roberto-nickson-2559941.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+header::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #385847;
+    opacity: .5;
+    z-index: -1;
+}
+.nav-item {
+    margin-left: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.btn-code {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding: 12px 28px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 18.75px;
+    text-transform: capitalize;
+}
+
+.btn-code:hover {
+    color: #fff;
+}
+
+.hero-content {
+}
+
+.hero-content h2 {
+    color: #ffffff;
+    font-size: 48px;
+    margin: 0;
+    font-weight: 200;
+    line-height: 10px;
+}
+
+.hero-content h1 {
+    color: #fff;
+    font-size: 120px;
+    font-weight: 500;
+    margin: 0;
+    font-weight: 400;
+}
+
+.hero-content p {
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.btn-hero {
+    color: #526a42;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffda37;
+    padding: 12px 35px ;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.btn-hero:hover {
+    background-color: #e2be1b;
+}
+
+.service-heading h1 {
+    color: #596861;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 15px;
+}
+
+.service-heading span {
+    display: block;
+    background-color: #ffd938;
+    height: 3px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.service-contect {
+}
+
+.image-box {
+    position: relative;
+    cursor: pointer;
+}
+.image-box::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #59bb7f;
+    opacity: .8;
+    transition: .5s all ease-in-out;
+}
+
+.image-box::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #59bb7f;
+    opacity: .8;
+    transition: .5s all ease-in-out;
+}
+.image-box:hover::after{
+    width: 50%;
+}
+.image-box:hover::before{
+    width: 50%;
+}
+
+
+.service-contect h3 {
+    color: #526a42;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 0 10px;
+    text-transform: none;
+    line-height: 30px;
+}
+
+.service-contect p {
+    color: #7d8e6f;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 0 10px;
+    line-height: 24px;
+}
+
+.quote {
+    background-color: #f7f8f6 ;
+}
+
+.quote-part img {
+    opacity: .3;
+}
+
+.quote-part h1 {
+    font-size: 35px;
+    color: #536942;
+    line-height: 43px;
+    font-family: 'Forum', cursive;
+    letter-spacing: -2px;
+    padding: 30px 0;
+    opacity: .9;
+}
+
+.profile {
+}
+
+.profile img {
+    width: 50px;
+}
+
+.profile p {
+    font-size: 16px;
+    color: #9eaa95;
+}
+
+.about {
+}
+
+.about h6 {
+    color: #86977b;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.about h1 {
+    color: #526a42;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    font-family: 'Forum', cursive;
+    padding-bottom: 30px;
+}
+
+.about p {
+    color: #758767;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-findout {
+    border: 1px solid #a8b39f;
+    padding: 12px 30px;
+    color: #536942;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+.btn-findout:hover{
+    color: #99c07c;
+}
+
+.questions {
+    background-image: url(../images/pexels-krivec-ales-547114.jpg);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.questions::after {
+    content: '';
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .3;
+}
+
+.questions h1 {
+    font-size: 64px;
+    font-weight: 400;
+    color: #526a42;
+    padding-bottom: 30px;
+}
+
+.questions p {
+    color: #536942;
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+.btn-letstalk {
+    color: #526a42;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffda37;
+    padding: 12px 35px ;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.btn-letstalk:hover {
+    background-color: #d7b82e;
+
+}
+
+footer {
+
+}
+
+footer ul {
+    align-items: center;
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+footer ul li {
+    color: #596861;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 18px;
+}
+
+footer img {
+    width: 60px;
+}
+
+footer p {
+    color: #596861;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
